@@ -1,0 +1,19 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.introduce_myself{
+    display: flex;
+}
+.welcome_part{
+    width: 50%;
+    margin: 0;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+}
