@@ -24,9 +24,9 @@ h2 span{
 h3{
     font-size: 20px;
 }
-p{
+/* p{
     font-size: 16px;
-}
+} */
 .welcome_part img{
     width: 80%;
 }
@@ -47,18 +47,26 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 }
-
+#experiences{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experiences_area{
     display: flex;
+
 
 }
 .details_experiences{
     margin-left: 5%;
-   padding-left: 20px;
+    margin-right: 5%;
+    padding-left: 20px;
     width: 40%;
     border-left: 5px solid tomato;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+ 
+
 }
 .details_experiences h3{
     font-size: 40px;
